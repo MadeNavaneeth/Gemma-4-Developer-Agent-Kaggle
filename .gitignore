@@ -1,0 +1,20 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# --- Data and results (never commit) ---
+data/
+results/
+*.npz
+*.tgz
+*.zip
+
+# --- Tooling ---
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

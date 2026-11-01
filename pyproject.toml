@@ -1,0 +1,10 @@
+[project]
+name = "gemma4devagent"
+version = "0.1.0"
+description = "Agent-side code for the Gemma 4 Developer Agent competition"
+requires-python = ">=3.11"
+dependencies = ["numpy", "networkx"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
